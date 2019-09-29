@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student login</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+	<header>
+	<marquee><h5><font color="white">New Questions are uploaded visit students aptitude section to solve</font></h5></marquee>
+
+		 <form align="center">
+		 	<div class="studentlogin">
+             	<h1 align="center"><font color="white">Student Login</font></h1>
+            </div>
+
+
+		<script type="text/javascript">
+function display(form){
+if (form.username.value=="student") { 
+		if (form.password.value=="student") {              
+										location="nextstud.html" 
+											} else {
+													alert("Invalid Password")
+													}
+								} else {  alert("Invalid Username")
+										}
+						}
+			</script>			
+<body >
+
+<form >
+<div class="user"><p><font color="white">User name:</p><input type="text" name="username" /></font><br><br></div>
+<div class="pass"><p><font color="white">Password</p><input type="password" name="password"/></font><br><br></div>
+<input type="button" value="Login" onClick="display(this.form)"/>
+</p>
+</form>
+
+</header>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin Login</title>
+	<link rel="stylesheet" type="text/css" href="style\style.css">
+</head>
+<body>
+	<h1 align="center">Vishwaniketan's Aptitude Test</h1>
+
+		<ul>
+			<div class="block"><li><a href="C:\Users\TANMAY JADHAV\Desktop\Website\csscheatsheet\Home.html">Home </a></li></div>
+
+			<div class="block"><li><a href="C:\Users\TANMAY JADHAV\Desktop\Website\csscheatsheet\Admin login.html">Admin Login</li></a></div>
+			
+			<div class="block"><li><a href="C:\Users\TANMAY JADHAV\Desktop\Website\csscheatsheet\Student login.html">Student Login</li></a></div>
+			
+			<div class="block"><li><a href="C:\Users\TANMAY JADHAV\Desktop\Website\csscheatsheet\CV.html">CV</li></a></div>
+		</ul><br><br><br>
+		 <form align="center">
+	<h1 align="center">Admin Login</h1>
+<p align="center">
+
+		<script type="text/javascript">
+function display(form){
+if (form.username.value=="root") { 
+		if (form.password.value=="root") {              
+										location="Admin page.html" 
+											} else {
+													alert("Invalid Password")
+													}
+								} else {  alert("Invalid Username")
+										}
+						}
+			</script>			
+<body >
+
+<form >
+<p>User name:</p><input type="text" name="username" /><br><br>
+<p>Password</p><input type="password" name="password"/><br><br>
+<input type="button" value="Login" onClick="display(this.form)"/>
+</p>
+</form>
+
+
+</body>
+</html>
